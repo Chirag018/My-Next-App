@@ -28,7 +28,14 @@ function CreateSell() {
                 <p className="pt-5 w-1/3 ml-80">A play of light and shade, chairoscuro is the realm between the light and dark.</p>
             </div>
             <div class="flex flex-row py-20 space-x-8">
-                <div class="whiteBg p-4 border-2 borderBlue px-4 pb-16 pt-10 w-7/12 text-center ">
+                {data.map((item, i) => (
+                    <div class="whiteBg p-4 border-2 borderBlue px-4 pb-16 pt-10 w-7/12 text-center ">
+                        <h1 className="text-xl blue8">{item.title}</h1>
+                        <p className="py-4 w-40 ml-3">{item.demo} </p>
+                        
+                    </div>
+                ))}
+                {/* <div class="whiteBg p-4 border-2 borderBlue px-4 pb-16 pt-10 w-7/12 text-center ">
                     <h1 className="text-xl blue8">Set up your wallet</h1>
                     <p className="py-4 w-48 ml-3">Once you’ve set up your wallet of choice, connect it to OpenSea. </p>
                     <p className='-mt-4 w-48 ml-3'>Learn about the <span className='blue5 cursor-pointer'>wallets we support.</span></p>
@@ -45,7 +52,7 @@ function CreateSell() {
                 <div className="whiteBg p-4 border-2 borderBlue px-4 pb-16 pt-10 w-7/12 text-center">
                     <h1 className="text-xl blue8">List them for sale</h1>
                     <p className="py-4 w-40 ml-7">Choose between auctions, fixed-price listings, and declining-price listings. You choose how you want to sell your NFTs.</p>
-                </div>
+                </div> */}
             </div>
 
             {/* {data.map((index, i) => (
