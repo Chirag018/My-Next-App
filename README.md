@@ -9,3 +9,7 @@ Tailwind Css.
 Hosting :
 
 Vercel.
+
+Platform used :
+
+VSCode
