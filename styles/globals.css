@@ -1,3 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.footer-down {
+    @apply text-sm text-blue-800 hover:underline;
+}
+
+.blue8 {
+    @apply text-blue-800;
+}
+
+.blue7 {
+    @apply text-blue-700;
+}
+
+.blue6{
+    @apply text-blue-600;
+}
+
+.blue5{
+    @apply text-blue-500;
+}
+
+.blueBg {
+    @apply bg-blue-500;
+}
+
+.white {
+    @apply text-white;
+}
+
+.whiteBg {
+    @apply bg-white;
+}
+
+.slate {
+    @apply bg-slate-500;
+}
+
+.indigo {
+    @apply bg-indigo-500;
+}
+
+.borderBlue {
+    @apply border-blue-100;
+}
