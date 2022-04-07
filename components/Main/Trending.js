@@ -46,10 +46,10 @@ function Trending() {
 
                 {data.map((item, index) => (
                     <div className="relative" id={index}>
-                        <Image src={item.bgImage} className='' width="298" />
+                        <Image src={item.bgImage} alt='backgroundImage' width="298" />
                         <div className='border border-x-2 whiteBg mb-32 absolute top-64 flex flex-col pb-10 rounded-md  ml-auto '>
                             <div className=" mx-28 -mt-10">
-                                <Image src={item.img} className='' alt='' width="100" height="100" />
+                                <Image src={item.img} className='image' alt='' width="100" height="100" />
                             </div>
                             <div className='flex flex-col items-center space-y-3'>
                                 <h1 className='mt-2 text-xl blue7 cursor-pointer'>{item.title}</h1>

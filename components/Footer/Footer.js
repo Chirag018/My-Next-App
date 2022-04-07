@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="footer grid grid-cols-2 mr-20 -mt-28">
       <div className="footer-left flex flex-col space-x-6 text-left space-y-5 bg-gradient-to-b from-blue-200 to-blue-800">
         <div className="flex items-center space-x-4 ml-7 mt-10">
-          <Image className="" src={logo} width="50" height="50" />
+          <Image alt="logo" src={logo} width="50" height="50" />
           <span className='font-bold white text-2xl'>OpenSea</span>
         </div>
         <p className="w-72 pb-48 pr-1 white">From Opensea.io, go to your profile icon and click “Create” in the top right corner. You’ll be taken to the NFT item creation page. This page will allow you to upload your NFT file, name it and add a description.</p>

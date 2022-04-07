@@ -33,7 +33,7 @@ function Resource() {
                 < AiFillCaretLeft className='blue8 ' />
                 {data.map((item, index) => (
                     <div id={index} className='border-2 border-white whiteBg flex w-56 p-1 items-center'>
-                        <Image src={item.image} width="100" height="100" />
+                        <Image src={item.image} width="100" height="100" alt='images'/>
                         <h2>{item.answer}</h2>
                     </div>
                 ))}

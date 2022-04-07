@@ -65,7 +65,7 @@ function Categories() {
                 <div className="cols grid grid-cols-4 gap-x-64 gap-y-8 space-y-1 pr-48 ">
                     {data.map((item, index) => (
                         <div className="flex flex-row w-64 h-24 text-left gap-x-2">
-                            <Image src={item.image} alt="" className="" />
+                            <Image src={item.image} alt="images" className="" />
                             <div className='w-48 ' id={index}>
                                 <h1 className="blue7 font-bold cursor-pointer">{item.title}</h1>
                                 <span>{item.details}</span>
